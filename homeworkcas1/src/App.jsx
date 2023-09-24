@@ -1,6 +1,8 @@
 // import React from 'react'; const React = require('react')
 import {Hello} from './components/Hello';
-// import {Goodbye} from './components/Goodbye' 
+// import {Goodbye} from './components/Goodbye';
+
+
 
 function App(){
 
@@ -11,8 +13,13 @@ function App(){
   return(
       <div id="app">
         <Hello/>
-        <h2>ZDRAVO TEKST H2 HEDING</h2>
+        <h2>ZDRAVO TEKST APP.JSX</h2>
         <Hello/>
+
+        {/* <Goodbye/>
+        <h2>GOODBYE VTOR PAT</h2>
+        <Goodbye/>  */}
+
         <hr/>
         <p>{999999}</p>
         <h2>Timeline: {broj}</h2>
